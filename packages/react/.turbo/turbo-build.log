@@ -1,0 +1,22 @@
+
+> @ui/react@1.0.1 build
+> tsup src/index.tsx --format esm,cjs --dts --external react
+
+CLI Building entry: src/index.tsx
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.7.0
+CLI Target: es6
+ESM Build start
+CJS Build start
+ESM dist/index.mjs 2.85 KB
+ESM ⚡️ Build success in 18ms
+CJS dist/index.js 3.76 KB
+CJS ⚡️ Build success in 18ms
+DTS Build start
+DTS ⚡️ Build success in 983ms
+DTS dist/index.d.ts 5.49 KB
+npm notice 
+npm notice New minor version of npm available! 9.6.6 -> 9.7.2
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.7.2>
+npm notice Run `npm install -g npm@9.7.2` to update!
+npm notice 
