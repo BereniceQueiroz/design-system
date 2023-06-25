@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, BoxProps } from '@ui/react'
+import { Box, BoxProps, Text } from '@ui/react'
 
 export default {
   title: 'Surfaces/Box',
@@ -8,7 +8,7 @@ export default {
   args: {
     children: (
       <>
-        <span>Teste elemento Box</span>
+        <Text>Teste elemento Box</Text>
       </>
     ),
   },
