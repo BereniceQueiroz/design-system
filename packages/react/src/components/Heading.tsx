@@ -1,4 +1,4 @@
-import { ComponentProps } from '@stitches/react'
+import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
 export const Heading = styled('h2', {
@@ -24,4 +24,6 @@ export const Heading = styled('h2', {
   },
 })
 
-export interface HeadingProps extends ComponentProps<typeof Heading> {}
+export interface HeadingProps extends ComponentProps<typeof Heading> {
+  as?: ElementType
+}
