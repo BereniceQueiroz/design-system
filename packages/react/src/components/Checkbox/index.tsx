@@ -5,6 +5,8 @@ import { ComponentProps } from 'react'
 export interface CheckboxProps
   extends ComponentProps<typeof CheckboxContainer> {}
 
+Checkbox.displayName = 'Checkbox'
+
 export function Checkbox(props: CheckboxProps) {
   return (
     <CheckboxContainer {...props}>

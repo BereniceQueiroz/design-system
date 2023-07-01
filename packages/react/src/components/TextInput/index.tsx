@@ -5,6 +5,8 @@ export interface TextInputProps extends ComponentProps<typeof Input> {
   prefix?: string
 }
 
+TextInput.displayName = 'TextInput'
+
 export function TextInput({ prefix, ...props }: TextInputProps) {
   return (
     <TextInputContainer>
