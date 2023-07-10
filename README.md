@@ -1,4 +1,4 @@
-## Módulo Monorepo Design System - Em construção
+## Módulo Monorepo Design System
 
 - React
 - Typescript
@@ -6,3 +6,4 @@
 - Eslint
 - Storybook
 - Npm
+- CI/CD
