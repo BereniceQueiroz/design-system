@@ -1,5 +1,5 @@
 {
   "extends": [
-    "@ui/eslint-config"
+    "@ui-design-system/eslint-config"
   ]
 }
