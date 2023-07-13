@@ -5,8 +5,6 @@ export interface TextInputProps extends ComponentProps<typeof Input> {
   prefix?: string
 }
 
-TextInput.displayName = 'TextInput'
-
 export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
   ({ prefix, ...props }: TextInputProps, ref) => {
     return (
@@ -17,3 +15,5 @@ export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
     )
   },
 )
+
+TextInput.displayName = 'TextInput'
