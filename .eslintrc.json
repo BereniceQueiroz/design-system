@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@ui-design-system/eslint-config"
+  ]
+}
